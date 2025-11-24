@@ -1,0 +1,14 @@
+.menu_general {
+    float: left;
+    text-align: right;
+}
+
+.menu {
+    background-color: rgb(8, 58, 15);
+    color: rgb(167, 167, 67);
+    width: fit-content;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 35px;
+    text-decoration: none;
+}
