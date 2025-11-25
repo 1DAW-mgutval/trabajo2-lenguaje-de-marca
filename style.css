@@ -3,26 +3,37 @@ body {
     min-height: 100vh;
 }
 
-#menu_general {
+#encabezado {
     display: flex;
-    float: right;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
     margin-top: 10px;
     margin-right: 15px;
+    position: sticky;
 }
 
-#arriba_derecha {
-    
+#arriba_izquierda {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
 }
 
 #logo {
     width: 100px;
-    height: 50%;
+    height: 100%;
+}
+
+#menu_general {
+    display: flex;
+    justify-content: center;
 }
 
 .menu {
+    float: right;
     background-color: rgb(8, 58, 15);
     color: rgb(167, 167, 67);
-    padding: 8px;
+    padding: 20px;
     border-radius: 5px;
     font-size: 35px;
     text-decoration: none;
