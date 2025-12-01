@@ -10,7 +10,7 @@ body {
     height: 100%;
     margin-top: 10px;
     margin-right: 15px;
-    position: sticky;
+    align-items: center;
 }
 
 #arriba_izquierda {
@@ -40,7 +40,71 @@ body {
     margin-left: 10px;
 }
 
+#titulo {
+    color: rgb(8, 58, 15);
+    padding: 20px;
+    font-size: 35px;
+}
+
 .menu:hover {
     background-color: rgb(167, 167, 67);
     color: rgb(8, 58, 15);
+}
+
+.izquierda {
+    font-size: 18px;
+    margin-right: 40%;
+}
+
+.centro {
+    text-align: center;
+}
+
+.horas {
+    display: flex;
+    position: relative;
+    float: right;
+    color: rgb(8, 58, 15);
+    margin: 5px;
+    border-radius: 5px;
+}
+
+#duraciones {
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+}
+
+table, td, th {
+    position: relative;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px;
+    border-spacing: 0;
+    color: rgb(0, 0, 0);
+}
+
+td:nth-child(odd), th:nth-child(odd) {
+    background-color: rgb(13, 107, 26);
+}
+
+td:nth-child(even), th:nth-child(even) {
+    background-color: rgb(136, 136, 1);
+}
+
+a {
+    color: rgb(36, 36, 36);
+}
+
+#cancion {
+    h2 {
+        background-color: rgb(136, 136, 1);
+        border-radius: 5px;
+    }
+    background-color: rgb(8, 58, 15);
+    color: rgb(179, 12, 12);
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 100px 5px;
 }
