@@ -96,15 +96,52 @@ a {
     color: rgb(36, 36, 36);
 }
 
+#musica {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
 #cancion {
+    background-color: rgb(8, 58, 15);
+    color: rgb(179, 12, 12);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
     h2 {
         background-color: rgb(136, 136, 1);
         border-radius: 5px;
     }
-    background-color: rgb(8, 58, 15);
-    color: rgb(179, 12, 12);
+    audio {
+        margin-top: 200px;
+    }
+}
+
+#mogh {
+    z-index: 10;
+    position: absolute;
+    bottom: 80px;
+    left: 50px;
+    img {
+        width: 250px;
+        height: 100%;
+    }
+}
+
+#pergamino {
+    position: relative;
+    display: flex;
     width: fit-content;
     margin: auto;
-    text-align: center;
-    padding: 100px 5px;
+    top: -75px;
+    img {
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+    #inicio_personaje {
+        margin: 20% 220px;
+        position: absolute;
+    }
 }
