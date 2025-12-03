@@ -145,3 +145,43 @@ a {
         position: absolute;
     }
 }
+
+#formulario {
+    display: flex;
+    color: rgb(136, 136, 1);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    width: 500px;
+    padding: 20px;
+    padding-top: 0;
+    margin: auto;
+    .etiqueta {
+        padding: 5px;
+        background-color: rgba(8, 58, 15, 0.400);
+        width: fit-content;
+        margin: 20px 0px 10px 0px;
+    }
+    input {
+        margin-left: 25%;
+    }
+    select {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        font-size: 16px;
+    }
+    img {
+        height: 60px;
+        width: auto;
+        margin-top: 15px;
+    }
+}
+
+#rol {
+    margin-left: 25%;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}

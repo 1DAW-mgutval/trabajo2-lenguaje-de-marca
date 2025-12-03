@@ -24,5 +24,70 @@
         <img src="src/pergamino.png" alt="pergamino">
         <p class="centro" id="inicio_personaje"><i>Miles de Sinluz han cruzado la niebla, pero no todos los caminos conducen al Trono de Elden. ¿Quién es tu campeón? ¿Un guerrero de fuerza bruta, un hechicero de las estrellas o un profeta de la Llama Frenética? <br><br> Las Tierras Intermedias están llenas de historias olvidadas. No dejes que la tuya sea una de ellas. Describe tu origen, tu equipamiento y tu destino. Deja tu marca en la historia para que otros Sinluz puedan seguir tus pasos... o temer tu nombre.</i></p>
     </div>
+
+    <div id="formulario">
+        <form>
+            <div class="etiqueta">
+                <label for="name">Nombre de tu Sinluz</label>
+            </div>
+            <input type="text" name="name" id="name">
+
+            <div class="etiqueta">
+                <label for="rol">Tipo de Sinluz Inicial</label>
+            </div>
+            <div id="rol">
+                <img src="src/gracia.png" alt="gracia.png">
+                <select name="rol">
+                    <option value="miserable">Miserable</option>
+                    <option value="astrologo">Astrólogo</option>
+                    <option value="guerrero">Guerrero</option>
+                    <option value="samurai">Samurái</option>
+                    <option value="profeta">Profeta</option>
+                    <option value="bandido">Bandido</option>
+                    <option value="prisionero">Prisionero</option>
+                    <option value="heroe">Héroe</option>
+                    <option value="vagante">Vagante</option>
+                    <option value="confesor">Confesor</option>
+                </select>
+            </div>
+
+            <div class="etiqueta">
+                <label for="weapon">Arma</label>
+            </div>
+            <input type="text" name="weapon" id="weapon">
+            
+            <div class="etiqueta">
+                <label for="escalado">Atributos de Escalado Principales</label>
+            </div>
+
+            <input type="checkbox" name="vigor">
+            <label for="vigor">Vigor</label><br>
+
+            <input type="checkbox" name="aguante">
+            <label for="aguante">Aguante</label><br>
+
+            <input type="checkbox" name="mente">
+            <label for="mente">Mente</label><br>
+
+            <input type="checkbox" name="fuerza">
+            <label for="fuerza">Fuerza</label><br>
+
+            <input type="checkbox" name="destreza">
+            <label for="destreza">Destreza</label><br>
+
+            <input type="checkbox" name="inteligencia">
+            <label for="inteligencia">Inteligencia</label><br>
+
+            <input type="checkbox" name="fe">
+            <label for="fe">Fe</label><br>
+
+            <input type="checkbox" name="arcano">
+            <label for="arcano">Arcano</label><br>
+
+            <div class="etiqueta">
+                <label for="imagen">Imagen de tu Sinluz</label>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
