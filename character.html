@@ -13,16 +13,23 @@
             <h1 id="titulo">Elden Ring</h1>
         </a>
         <div id="menu_general">
-        <a href="index.html" class="menu">Inicio</a>
-        <a href="builds.html" class="menu">Builds</a>
-        <a href="boses.html" class="menu">Boses</a>
-        <a href="character.html" class="menu">Tu Personaje</a>
+            <div id="desplegable">
+                <a href="https://es.bandainamcoent.eu/elden-ring/elden-ring" id="pagina_original">Página<br>Oficial</a>
+                <a href="index.html" class="menu" id="inicio">Inicio</a>
+            </div>
+            <a href="builds.html" class="menu">Builds</a>
+            <a href="boses.html" class="menu">Boses</a>
+            <a href="character.html" class="menu">Tu Personaje</a>
         </div>
     </div>
     
     <div id="pergamino">
         <img src="src/pergamino.png" alt="pergamino">
         <p class="centro" id="inicio_personaje"><i>Miles de Sinluz han cruzado la niebla, pero no todos los caminos conducen al Trono de Elden. ¿Quién es tu campeón? ¿Un guerrero de fuerza bruta, un hechicero de las estrellas o un profeta de la Llama Frenética? <br><br> Las Tierras Intermedias están llenas de historias olvidadas. No dejes que la tuya sea una de ellas. Describe tu origen, tu equipamiento y tu destino. Deja tu marca en la historia para que otros Sinluz puedan seguir tus pasos... o temer tu nombre.</i></p>
+    </div>
+
+    <div id="titulo_formulario">
+        <h1>Tu Sinluz</h1>
     </div>
 
     <div id="formulario">
@@ -36,7 +43,6 @@
                 <label for="rol">Tipo de Sinluz Inicial</label>
             </div>
             <div id="rol">
-                <img src="src/gracia.png" alt="gracia.png">
                 <select name="rol">
                     <option value="miserable">Miserable</option>
                     <option value="astrologo">Astrólogo</option>
@@ -49,12 +55,13 @@
                     <option value="vagante">Vagante</option>
                     <option value="confesor">Confesor</option>
                 </select>
+                <img src="src/gracia.png" alt="gracia.png">
             </div>
 
             <div class="etiqueta">
-                <label for="weapon">Arma</label>
+                <label for="weapon">Armas</label>
             </div>
-            <input type="text" name="weapon" id="weapon">
+            <textarea name="weapon"></textarea>
             
             <div class="etiqueta">
                 <label for="escalado">Atributos de Escalado Principales</label>
@@ -87,7 +94,17 @@
             <div class="etiqueta">
                 <label for="imagen">Imagen de tu Sinluz</label>
             </div>
+            <input type="file" name="file" id="imagen_sinluz">
+
+            <div id="enviar">
+                <input type="submit" name="submit">
+            </div>
         </form>
     </div>
+
+    <div id="abajo_derecha">
+        <a href="index.html"><img src="src/logo.webp" alt="logo elden ring" id="logo_abajo"></a>
+    </div>
+
 </body>
 </html>
